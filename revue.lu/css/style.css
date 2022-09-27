@@ -1,0 +1,594 @@
+div.tgb {
+  /* Layout Properties */
+top: 0.00048828125px;
+left: 0px;
+width: 1920px;
+height: 1081px;
+/* UI Properties */
+opacity: 1;
+}
+
+body {
+  background-color:#DBDBDC;
+}
+
+#txt {
+  top: 530px;
+  left: 64px;
+  width: 320px;
+  height: 42px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 36px/var(--unnamed-line-spacing-42) Akzidenz-Grotesk BQ;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal bold 36px/42px Akzidenz-Grotesk BQ;
+  letter-spacing: 0px;
+  /*color: #595B60;*/
+  color: #0c48e0;
+  opacity: 1;
+}
+
+#txt2 {
+  op: 357px;
+  left: 64px;
+  width: 449px;
+  height: 40px;
+  font: normal var(--unnamed-font-weight-bold) 34px/40px Akzidenz-Grotesk BQ;
+  letter-spacing: 0;
+  text-align: left;
+  font: normal 34px/40px Akzidenz-Grotesk BQ;
+  letter-spacing: 0px;
+  color: #595B60;
+  opacity: 1;
+}
+
+#img {
+  top: 0.00048828125px;;
+  left: 0px;
+  width: 120px;
+  height: 81px;
+  opacity: 1;
+}
+
+span.CharOverride-1 {
+
+  top: 357px;
+  left: 64px;
+  width: 449px;
+  height: 40px;
+	color:#333333;
+	font-family:"Akzidenz-Grotesk BQ Extra Conde", sans-serif;
+	font-size:20px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#tgb {
+  background-color: #ffffff;
+border: 1px solid black;
+opacity:0.6;
+filter:alpha(opacity=60);
+}
+
+#right {
+position:absolute;
+width:1920px;
+height:1081px;
+top:0px;
+right:0;
+}
+
+div.actions {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+
+a.action {
+  display: block;
+  height: 40px;
+  width: 200px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+  background-position: center center;
+  transition: background-color ease .5s;
+}
+
+a.action:hover {
+  background-color: #F9F9F9;
+}
+
+a.actiontgb {
+ background-image: url("../img/tgb.png");
+}
+
+a.actionlq {
+ background-image: url("../img/lq.png");
+}
+
+figcaption.tgbcap {
+  color: #595B60;
+  top: 727px;
+  left: 597px;
+  width: 105px;
+  height: 20px;
+}
+
+#pc {
+  position: absolute;
+    top: 320px;
+    left: 1252px;
+    width: 520px;
+    height: 420px;
+
+}
+
+#epp {
+  position: absolute;
+    top: 475px;
+  left: 1345px;
+    width: 199px;
+    height: 66px;
+
+}
+
+#eppOne {
+  position: absolute;
+    top: 585px;
+  left: 1655px;
+    width: 66px;
+    height: 20px;
+}
+
+.vsEp {
+  color:#595B60;
+  position: absolute;
+    top: 285px;
+  left: 62px;
+}
+
+.vsEpTwo {
+  color:#595B60;
+  position: absolute;
+    top: 285px;
+  left: 290px;
+}
+
+@media screen and (max-width: 767px) {
+  span.CharOverride-1 {
+    top: 390px;
+    left: 64px;
+    width: 449px;
+    height: 40px;
+  	color:#333333;
+  	font-family:"Akzidenz-Grotesk BQ Extra Conde", sans-serif;
+  	font-size:18px;
+  	font-style:normal;
+  	font-variant:normal;
+  	font-weight:bold;
+  	text-transform:uppercase;
+  }
+  #right {
+    position:absolute;
+    width:522px;
+    height:981px;
+    top:0px;
+    right:0;
+  }
+  #pc {
+    position: absolute;
+      top: 45px;
+      left: 310px;
+      width: 270px;
+      height: 220px;
+  }
+  #epp {
+    position: absolute;
+      top: 120px;
+    left: 347px;
+      width: 130px;
+      height: 46px;
+  }
+  #eppOne {
+    position: absolute;
+      top: 180px;
+    left: 517px;
+      width: 38px;
+      height: 16px;
+  }
+  a.action {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-position: center center;
+    transition: background-color ease .5s;
+    z-index: 10px;
+    margin-bottom: 30px;
+  }
+  div.actions {
+
+    width: 80%;
+    flex-direction:column;
+  }
+  .vsEp {
+    color:#595B60;
+    position: absolute;
+      top: 272px;
+    left: 70px;
+  }
+
+  .vsEpTwo {
+    color:#595B60;
+    position: absolute;
+      top: 342px;
+    left: 70px;
+
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  span.CharOverride-1 {
+    top: 390px;
+    left: 64px;
+    width: 449px;
+    height: 40px;
+  	color:#333333;
+  	font-family:"Akzidenz-Grotesk BQ Extra Conde", sans-serif;
+  	font-size:25px;
+  	font-style:normal;
+  	font-variant:normal;
+  	font-weight:bold;
+  	text-transform:uppercase;
+  }
+  #right {
+    position:absolute;
+    width:592px;
+    height:1100px;
+    top:0px;
+    right:0;
+  }
+  #pc {
+    position: absolute;
+      top: 65px;
+      left: 1000px;
+      width: 280px;
+      height: 190px;
+  }
+  #epp {
+    position: absolute;
+      top: 130px;
+    left: 1030px;
+      width: 150px;
+      height: 46px;
+  }
+  #eppOne {
+    position: absolute;
+      top: 180px;
+    left: 1215px;
+      width: 40px;
+      height: 16px;
+  }
+  a.action {
+    display: flex;
+    height: 65px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-position: center center;
+    transition: background-color ease .5s;
+    margin: 5px;
+  }
+  div.actions {
+    display: flex;
+    width: 45%;
+  }
+  .vsEp {
+    color:#595B60;
+    position: absolute;
+      top: 335px;
+    left: 70px;
+  }
+
+  .vsEpTwo {
+    color:#595B60;
+    position: absolute;
+      top: 335px;
+    left: 430px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  span.CharOverride-1 {
+    top: 357px;
+    left: 64px;
+    width: 449px;
+    height: 40px;
+  	color:#333333;
+  	font-family:"Akzidenz-Grotesk BQ Extra Conde", sans-serif;
+  	font-size:20px;
+  	font-style:normal;
+  	font-variant:normal;
+  	font-weight:bold;
+  	text-transform:uppercase;
+  }
+  #right {
+  position:absolute;
+  width:1920px;
+  height:1081px;
+  top:0px;
+  right:0;
+  }
+  #pc {
+    position: absolute;
+      top: 320px;
+      left: 752px;
+      width: 520px;
+      height: 420px;
+
+  }
+  #epp {
+    position: absolute;
+      top: 475px;
+    left: 835px;
+      width: 199px;
+      height: 66px;
+
+  }
+  #eppOne {
+    position: absolute;
+      top: 585px;
+    left: 1155px;
+      width: 66px;
+      height: 20px;
+  }
+  div.actions {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+
+  }
+
+  a.action {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-position: center center;
+    transition: background-color ease .5s;
+  }
+  .vsEp {
+    color:#595B60;
+    position: absolute;
+      top: 285px;
+    left: 70px;
+  }
+
+  .vsEpTwo {
+    color:#595B60;
+    position: absolute;
+      top: 285px;
+    left: 240px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  span.CharOverride-1 {
+    top: 357px;
+    left: 64px;
+    width: 449px;
+    height: 40px;
+  	color:#333333;
+  	font-family:"Akzidenz-Grotesk BQ Extra Conde", sans-serif;
+  	font-size:20px;
+  	font-style:normal;
+  	font-variant:normal;
+  	font-weight:bold;
+  	text-transform:uppercase;
+  }
+  #right {
+  position:absolute;
+  width:1920px;
+  height:1081px;
+  top:0px;
+  right:0;
+  }
+  #pc {
+    position: absolute;
+      top: 320px;
+      left: 1252px;
+      width: 520px;
+      height: 420px;
+
+  }
+  #epp {
+    position: absolute;
+      top: 475px;
+    left: 1325px;
+      width: 250px;
+      height: 75px;
+
+  }
+  #eppOne {
+    position: absolute;
+      top: 585px;
+    left: 1655px;
+      width: 70px;
+      height: 25px;
+  }
+  div.actions {
+    display: flex;
+    width: 25%;
+
+
+  }
+
+  a.action {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-position: center center;
+    transition: background-color ease .5s;
+  }
+  .vsEp {
+    color:#595B60;
+    position: absolute;
+      top: 285px;
+    left: 70px;
+  }
+
+  .vsEpTwo {
+    color:#595B60;
+    position: absolute;
+      top: 285px;
+    left: 330px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    border-size: border-box;
+  }
+
+  html, body {
+    height: 100vh;
+    background: #666666;
+    font-family: 'Balsamiq Sans', sans-serif;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 70%;
+    padding: 30px 90px 90px 90px;
+    border: 6px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    position: relative;
+  }
+
+  .card h2 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+
+  .card .row {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid: auto / auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+    grid-gap: 30px;
+  }
+
+  .card .row .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 20px 40px 0;
+    transition: 0.5s;
+  }
+
+  .card .row .form-group {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #383636;
+  }
+
+  .card .row .form-group input,
+  .card .row .form-group textarea {
+    position: absolute;
+    width: 90%;
+    height: 120%;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    border-radius: 50px;
+  }
+
+  .card .row .form-group label {
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 0 0 30px;
+    display: block;
+    pointer-events: none;
+  }
+
+  .row .col:nth-child(6) {
+    margin-top: 64px;
+  }
+
+  .card .row .form-group input:focus,
+  .card .row .form-group textarea:focus {
+    border: 5px solid #ffffff;
+    transition: all 0.5s;
+  }
+
+  .card .row input[type="submit"] {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    height: 100%;
+    width: 90%;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 45px;
+    transition: all 0.4s;
+  }
+
+  .card .row input[type="submit"]:hover {
+    border: 5px solid rgba(255, 255, 255, 1);
+    color: #ffffff;
+    transition: all 0.4s;
+  }
+
+  @media screen and (max-width: 900px) {
+    .card .row {
+      grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+    }
+
+    .card {
+      padding: 20px;
+    }
+
+    .card h2 {
+      font-size: 34px;
+    }
+
+    .card .row input[type="submit"] {
+      width: 100%;
+    }
+  }
+}
